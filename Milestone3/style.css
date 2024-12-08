@@ -1,0 +1,95 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color:#f0f4f8;
+    background-image: url('https://images.unsplash.com/photo-1508717272800-9fff97da7e8f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2Zlc3Npb25hbCUyMGJhY2tncm91bmQlMjBsaWdodCUyMGNvbG91cnxlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+
+h1{
+    text-align: center;
+    color:#2c3e50;
+    font-weight: bold;
+    
+}
+h2{
+    text-align: center;
+    color: #2c3e50;
+    font-weight: bold
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: ghostwhite;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0,0, 0.5);
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid #2c3e50;
+    border-radius:8px ;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+legend{
+    font-weight: bold;
+    color: #000;;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    color: #2c3e50;
+}
+
+input,textarea{
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top:8px ;
+    border:1px  solid #2c3e50;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    display: block;
+    background-color: darkgrey;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+button:hover{
+  background-color: cadetblue;
+}
+
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #343434;
+    border-radius: 8px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0,0, 0.5);
+
+
+}
+
+
+#resumeOutput h2{
+    color:#343434;
+}
